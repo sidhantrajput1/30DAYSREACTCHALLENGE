@@ -124,5 +124,3 @@ For each day, complete the following steps:
 - [ ] Revise briefly before moving to the next day
 
 ---
-
-💡 Pro tip: Write clean, modular, and reusable code. Always explain **why** you used a hook or pattern — interviewers love reasoning!
