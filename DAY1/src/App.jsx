@@ -1,10 +1,12 @@
 import React from 'react';
 import Counter from './component/counter';
+import DigitalClock from './component/digitalClock';
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      {/* <Counter /> */}
+      <DigitalClock />
     </div>
   );
 }
