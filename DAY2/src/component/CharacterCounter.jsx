@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const CharacterCounter = () => {
   const [text, setText] = useState("");
-  let maxLimit = 100;
+  let maxLimit = 10;
 
   const count = text.length % maxLimit;
 
