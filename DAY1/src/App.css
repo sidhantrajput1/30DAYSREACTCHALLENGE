@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+
+/* body {
+  @apply bg-white text-black transition-colors duration-300;
+} */
+
+/* Dark mode background */
+/* .dark body {
+  @apply bg-black text-white;
+} */
