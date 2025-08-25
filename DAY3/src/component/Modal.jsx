@@ -2,9 +2,9 @@ import React from "react";
 
 const Modal = ({ setIsOpen }) => {
   return (
-    <div className="fixed inset-0 flex justify-center items-center bg-gray bg-opacity-90 backdrop-blur-sm z-50">
-      <div className="relative w-[500px] h-[400px] bg-white rounded-2xl shadow-xl p-6 flex flex-col items-center">
-        <button onClick={() => setIsOpen(false)} className="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-xl cursor-pointer">
+    <div  onClick={() => setIsOpen(false)} className="fixed inset-0 flex justify-center items-center bg-gray bg-opacity-90 backdrop-blur-sm z-50">
+      <div  onClick={(e) => e.stopPropagation()}   className="relative w-[500px] h-[400px] bg-white rounded-2xl shadow-xl p-6 flex flex-col items-center">
+        <button  onClick={() => setIsOpen(false)} className="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-xl cursor-pointer">
           ✖
         </button>
 
