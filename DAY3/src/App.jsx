@@ -1,6 +1,7 @@
 import React from 'react';
 import ModalCoponent from './component/modalCoponent';
 import Tooltip from './component/Tooltip';
+import ToastNotification from './component/ToastNotification';
 
 
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
     <div>
       {/* <Modal /> */}
       {/* <ModalCoponent /> */}
-      <Tooltip />
+      {/* <Tooltip /> */}
+      <ToastNotification />
     </div>
   );
 }
