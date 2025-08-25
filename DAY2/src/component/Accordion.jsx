@@ -36,8 +36,9 @@ const faqData = [
 const Accordion = () => {
   const [isActive, setIsActive] = useState(null);
   return (
-    <div className="bg-gray-600 ">
-      <div className="max-w-7xl mx-auto min-h-screen pt-20 ">
+    <div className="bg-gray-600">
+      <h3 className="text-center text-2xl  font-bold text-white">Accordion</h3>
+      <div className="max-w-7xl mx-auto min-h-screen pt-10 ">
         {faqData.map((val, idx) => (
           <AccordionFeq
             isActive={isActive === idx}
@@ -54,6 +55,7 @@ const Accordion = () => {
 export default Accordion;
 
 function AccordionFeq({ val, isActive, setIsActive }) {
+  // const isOpen = isActive === idx;
   const handleActive = () => {
     setIsActive(!isActive);
   };
