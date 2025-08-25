@@ -1,13 +1,14 @@
 import React from 'react';
-import Modal from './component/Modal';
 import ModalCoponent from './component/modalCoponent';
+import Tooltip from './component/Tooltip';
 
 
 const App = () => {
   return (
     <div>
       {/* <Modal /> */}
-      <ModalCoponent />
+      {/* <ModalCoponent /> */}
+      <Tooltip />
     </div>
   );
 }
