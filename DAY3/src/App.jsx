@@ -1,14 +1,13 @@
 import React from 'react';
-import CharacterCounter from './component/CharacterCounter';
-import TabsComponet from './component/TabsComponet';
-import Accordion from './component/Accordion';
+import Modal from './component/Modal';
+import ModalCoponent from './component/modalCoponent';
+
 
 const App = () => {
   return (
     <div>
-      {/* <CharacterCounter /> */}
-      {/* <TabsComponet /> */}
-      <Accordion />
+      {/* <Modal /> */}
+      <ModalCoponent />
     </div>
   );
 }
