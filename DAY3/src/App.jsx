@@ -6,10 +6,10 @@ import ToastNotification from './component/ToastNotification';
 
 const App = () => {
   return (
-    <div>
+    <div className='flex flex-col'>
       {/* <Modal /> */}
-      {/* <ModalCoponent /> */}
-      {/* <Tooltip /> */}
+      <ModalCoponent />
+      <Tooltip />
       <ToastNotification />
     </div>
   );

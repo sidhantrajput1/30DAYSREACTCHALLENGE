@@ -1,14 +1,12 @@
 import React from 'react';
-import CharacterCounter from './component/CharacterCounter';
-import TabsComponet from './component/TabsComponet';
-import Accordion from './component/Accordion';
+import ProgressBar from './component/progressBar';
+import ControlledForm from './component/controlledForm';
 
 const App = () => {
   return (
-    <div>
-      {/* <CharacterCounter /> */}
-      {/* <TabsComponet /> */}
-      <Accordion />
+    <div className='bg-gray-100'>
+      <ProgressBar />
+      {/* <ControlledForm /> */}
     </div>
   );
 }
