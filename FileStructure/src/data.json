@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "icon": "📁",
+    "name": "Search Bar",
+    "isFolder": true,
+    "children": [
+      {
+        "id": 2,
+        "icon": "📁",
+        "name": "Public",
+        "isFolder": true,
+        "children": [
+          {
+            "id": 3,
+            "icon": "🗃️",
+            "name": "vite.svg",
+            "isFolder": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "icon": "📁",
+        "name": "src",
+        "isFolder": true,
+        "children": [
+          {
+            "id": 5,
+            "icon": "📁",
+            "name": "components",
+            "isFolder": true,
+            "children": [
+              {
+                "id": 6,
+                "icon": "🗃️",
+                "name": "app.css",
+                "isFolder": false
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "icon": "🗃️",
+            "name": "App.css",
+            "isFolder": false
+          },
+          {
+            "id": 8,
+            "icon": "🗃️",
+            "name": "App.jsx",
+            "isFolder": false
+          },
+          {
+            "id": 9,
+            "icon": "🗃️",
+            "name": "index.css",
+            "isFolder": false
+          },
+          {
+            "id": 10,
+            "icon": "🗃️",
+            "name": "main.jsx",
+            "isFolder": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "icon": "🗃️",
+        "name": ".gitignore",
+        "isFolder": false
+      },
+      {
+        "id": 12,
+        "icon": "🗃️",
+        "name": "index.html",
+        "isFolder": false
+      },
+      {
+        "id": 13,
+        "icon": "🗃️",
+        "name": "package.json",
+        "isFolder": false
+      },
+      {
+        "id": 11,
+        "icon": "🗃️",
+        "name": "README.md",
+        "isFolder": false
+      },
+      {
+        "id": 11,
+        "icon": "🗃️",
+        "name": "vite.config.js",
+        "isFolder": false
+      }
+    ]
+  }
+]
