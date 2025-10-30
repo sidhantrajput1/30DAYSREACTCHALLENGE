@@ -9,7 +9,6 @@ const App = () => {
 
   const fetchData = async () => {
     if (cache[input]) {
-      // console.log("CACHE RETUREND ", input)
       setResult(cache[input])
       return;
     }
